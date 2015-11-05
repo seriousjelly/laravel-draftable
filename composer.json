@@ -1,0 +1,27 @@
+{
+  "name": "seriousjelly/laravel-draftable",
+  "description": "A Eloquent Draftable trait for Laravel",
+  "keywords": ["laravel", "draftable", "drafts", "status", "live", "eloquent"],
+  "homepage": "http://www.seriousjelly.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris Bratherton",
+      "email": "chris@seriousjelly.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seriousjelly\\Draftable\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
