@@ -45,16 +45,16 @@ class ServiceProvider extends LaravelServiceProvider {
 
     private function handleConfigs() {
 
-        $configPath = __DIR__ . '/../config/drafable.php';
+        $configPath = __DIR__ . '/../config/draftable.php';
 
-        $this->publishes([$configPath => config_path('drafable.php')]);
+        $this->publishes([$configPath => config_path('draftable.php')]);
 
-        $this->mergeConfigFrom($configPath, 'drafable');
+        $this->mergeConfigFrom($configPath, 'draftable');
     }
 
     private function handleMigrations() {
 
         $this->publishes([__DIR__ . '/../migrations' => base_path('database/migrations')]);
     }
-    
+
 }
