@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Scope;
 
-class DraftableScope implements ScopeInterface {
+class DraftableScope implements Scope{
 
     /**
      * Apply scope on the query.
